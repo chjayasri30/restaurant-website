@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="bookings.html">Bookings</a></li>
+            <li><a href="login.html">SignIn</a></li>
+        </ul>
+    </nav>
+    <br>
+  <header class="hero">
+    <h1>Welcome to Our Restaurant</h1>
+    <p>Experience the best dining with us!</p>
+    <div style="display: flex; gap: 10px;">
+        <button onclick="window.location.href='menu.html'" id="viewMenu">View Menu</button>
+        <button onclick="window.location.href='bookings.html'" id="bookTable">Book a Table</button>
+    </div>
+</div>
+  </header>
+  <br>
+  <section class="aboutSection">
+    <div class="aboutContent">
+        <h2>About Us</h2>
+        <p>
+        Welcome to <strong>Our Restaurant</strong>, where taste meets tradition. <br>
+        We serve freshly prepared dishes made with love, bringing you the best dining experience. 
+        Perfect for family gatherings, or casual hangouts!
+        </p>
+        <button onclick="window.location.href='about.html'" id="learnmoreBtn">Learn More</button>
+    </div>
+    <div class="aboutImage">
+        <img src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9442.jpg" alt="About Us Image">
+    </div>
+  </section>
+  <section class="contact-preview">
+  <h2>Get in Touch</h2>
+  <p>📍 123 Food Street, Flavor Town, India</p>
+  <p>☎️ +91 98765 43210</p>
+  <p>📧 info@ourrestaurant.com</p>
+  <button onclick="window.location.href='contact.html'" id="contactButton">Contact Us</button>
+</section>
+<br>
+    <footer>
+        <p>&copy; 2025 Our Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>

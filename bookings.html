@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>bookings page</title>
+</head>
+<body>
+    <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="bookings.html">Bookings</a></li>
+      <li><a href="login.html">SignIn</a></li>
+    </ul>
+  </nav>
+  <div class="bookings-page">
+    <header class="booking-hero">
+    <h1>Reserve Your Table</h1>
+    <p>Plan your perfect dining experience with us!</p>
+  </header>
+    <section class="booking-form">
+    <form onsubmit="alert('Your table has been booked successfully!'); return false;">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br><br>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required><br><br>
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" required><br><br>
+
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" min="1" max="20" required><br><br>
+
+      <label for="request">Special Request:</label>
+      <textarea id="request" rows="3"></textarea><br><br>
+
+      <button type="submit" id="bookTable">Book Table</button>
+    </form>
+  </section>
+  <br>
+  <br>
+  <br><br>
+  </div>
+  <br>
+  <footer>
+    <p>&copy; 2025 Our Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>

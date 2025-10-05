@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="bookings.html">Bookings</a></li>
+      <li><a href="login.html">SignIn</a></li>
+    </ul>
+  </nav>
+<br>
+  <section class="dashboard">
+    <h1>Welcome to Your Dashboard</h1>
+    <p>Thank you for logging in!</p>
+    <p>Here you can view your upcoming bookings or explore our new dishes.</p>
+
+    <button onclick="window.location.href='menu.html'" id="dashBtn">View Menu</button>
+    <button onclick="window.location.href='bookings.html'" id="dashBtn">Book a Table</button>
+  </section>
+<br>
+  <footer>
+    <p>&copy; 2025 Our Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>

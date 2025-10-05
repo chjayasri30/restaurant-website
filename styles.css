@@ -1,0 +1,352 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2cm;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+    font-weight: 500;
+    padding: 0.5cm 1cm;
+    border-radius: 4px;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background: #f0f0f0;
+    color: black;
+}
+img {
+    height: 100px;
+    width: 60px;
+}
+
+.hero {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url("indexImage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+button[id="submit"] , button[id="viewMenu"], button[id="bookTable"], button[id="learnmoreBtn"], button[id="contactButton"],
+button[id="msgSubmit"], button[id="bookTable"], button[id="dashBtn"] {
+  background-color: #007bff;
+  color: white;
+  border: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.login-container{
+  background-image: url("https://th.bing.com/th/id/R.d00791c9a9ef67a29a6c467024f29e9a?rik=fPFkv08D7Ft%2bAw&riu=http%3a%2f%2fu.realgeeks.media%2fferrispropertygroup%2ffine_dining_restaurant.jpg&ehk=La910LIQF3V0cGfktRc6eP1YclZfj2vzHjf9gTi2vvU%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 100vh;
+  width: 100vw;
+  font-size: x-large;
+}
+
+.signup-container {
+  background-image: url("https://www.teahub.io/photos/full/171-1718121_high-resolution-restaurant-images-hd.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  color: white;
+  font-size: x-large;
+}
+
+
+
+.aboutSection {
+  display: flex;               
+  align-items: center;        
+  justify-content: space-between;
+  gap: 40px;                  
+  padding: 50px 10%;
+  background: #f9f9f9;        
+}
+
+.aboutContent {
+  max-width: 500px;
+  font-size: large;
+}
+
+.aboutImage img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.abouthero {
+  background: url("https://restaurantinteriordesign.eu/wp-content/uploads/2018/06/Cold-Drinks-San-Francisco-restaurant.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  height: 250px;              
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   
+  align-items: center;
+}
+
+.abouthero h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.about-story {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #444;
+}
+
+.valuesMission {
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.valuesMission h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.valuesMission ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.valuesMission li {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.about-chef {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 10%;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.about-chef img {
+  width: 300px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.chef-text {
+  max-width: 500px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.whychooseus {
+  margin: 40px auto;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.whychooseus ul {  
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.whychooseus li{
+    background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.callToAction {
+  text-align: center;
+}
+
+.menuImages img {
+width: 45%;
+height: auto;
+align-items: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 8px;
+  background-color: #333;
+  color: white;
+  position: relative;
+  bottom: 0;
+}
+
+.contact-preview {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+
+.contact-preview h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.contact-preview p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.contact-section {
+  background: url("https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?cs=srgb&dl=chair-cutlery-diner-941861.jpg&fm=jpg") center/cover no-repeat;
+  padding: 60px 20px;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: large;
+}
+
+.contact-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5); 
+}
+.contact-section * {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form{
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  color: black;
+}
+
+.booking-hero{
+  text-align: center;
+  color: white;
+}
+
+.booking-form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.bookings-page {
+  background: url("https://www.opentable.co.uk/blog/wp-content/uploads/sites/110/2023/04/safeimagekit-grpetrus1890october202238_rpiipf-3-scaled.jpg") center/cover no-repeat;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.dashboard {
+  background: url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141353.jpg") center/cover no-repeat;
+  text-align: center;
+  padding: 80px 20px;
+  min-height: 70vh;
+  color: white;
+}
+
+.dashboard h1 {
+  font-size: 2.5rem;
+}
+
+.dashboard p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .aboutSection, .about-chef {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+  }
+
+  .contact-form, .booking-form {
+    width: 90%;
+  }
+}
