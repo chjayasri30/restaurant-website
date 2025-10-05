@@ -78,7 +78,7 @@ It serves as a simple and effective web presence for small businesses without th
 
 ---
 
-👩‍💻 **Developed by:** *Jayasri Cheekatla*
-📅 **Internship:** Edunet Foundation — Front-End Web Development Internship
+👩‍💻 Developed by: Jayasri Cheekatla
+📅 Internship: Edunet Foundation — Front-End Web Development Internship
 
 ```
