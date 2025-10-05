@@ -39,6 +39,7 @@ This project provides a simple, front-end-only restaurant website for displaying
    git push -u origin main
 ````
 
+
 6. Deployed live using **GitHub Pages**.
 
 ---
