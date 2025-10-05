@@ -44,7 +44,7 @@ This project provides a simple, front-end-only restaurant website for displaying
 
 ---
 
-## 📊 Result
+ 📊 Result
 
 * The website successfully displays restaurant information, menu items, and booking options.
 * Users can easily navigate between pages and interact with the booking form.
@@ -52,14 +52,14 @@ This project provides a simple, front-end-only restaurant website for displaying
 
 ---
 
-## 🧾 Conclusion
+ 🧾 Conclusion
 
 This project demonstrates the importance of front-end development in enhancing a restaurant’s online visibility.
 It serves as a simple and effective web presence for small businesses without the need for backend systems.
 
 ---
 
-## 🚀 Future Scope
+ 🚀 Future Scope
 
 * Adding an online ordering or cart system
 * Integrating database connectivity for bookings
@@ -67,7 +67,7 @@ It serves as a simple and effective web presence for small businesses without th
 
 ---
 
-## 📚 References
+ 📚 References
 
 1. W3Schools — HTML & CSS Tutorials
    🔗 [https://www.w3schools.com](https://www.w3schools.com)
